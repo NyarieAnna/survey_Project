@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(backpic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+.box{
+    width: 400px;
+    border-bottom: 20px solid #2980b9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+
+}
+.box h2{
+    color: black;
+    font-size: 25px;
+    padding: 20px 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #2980b9;
+    text-align: center;
+}
+.box ul{
+    position: relative;
+       background: #fff;
+}
+.box ul li{
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    background:#fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+}
+.box ul li:hover{
+    transform: scale(-0.5.0.5);
+        z-index: 100;
+        background: #2980b9;
+        box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    
+}
+.box ul:hover li{
+    opacity: 1.2;
+}
+.box ul li a{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background:  linear-gradient(120deg, #2980b9, #8e44ad);
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+   
+
+}
+.box ul li:hover a{
+    background: #fff;
+    color: #2980b9;
+
+}
+.modal-content a{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-top:20px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-left: 40px;
+    padding: 10px;
+    
+    
+    
+}
+.modal-content a:hover{
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+   
+}
+.respondentmodal{
+    width: 200px;
+    margin-left: 900px;
+    height: 100px;
+    border-top: 2px solid #2980b9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff;
+    border-bottom: 2px solid #2980b9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+    
+
+}
+.modal-content #qsn1 {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    border-bottom: 1px solid silver;
+    color: #2980b9;
+    font-size: 15px;
+}
+.myTable{
+    background: #fff;
+    width: 400px;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create question</title>
+    <link rel="stylesheet" href="createqsn.css" />
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Enter your question here:</h2>
+        <textarea id="txtquestion" class="txtquestion"></textarea>
+        <h4 id="answertype">Answer type</h4>
+        <select name="qsnType" id="qsntype">
+          <option class="option">--select question type</option>
+          <option class="field">Input-field</option>
+          <option class="yes/no">Yes/No</option>
+          <option class="range">Range</option>
+        </select>
+      </div>
+      <button class="addqsn" id="addqsn">Add Question</button>
+      <button id="submitqsn">Complete survey</button>
+    </div>
+    <script src="login.js"></script>
+  <script src="postdata.js"></script>
+  <script src="questions.js"></script>
+  </body>
+</html>

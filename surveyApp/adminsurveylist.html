@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveylist</title>
+    <link rel="stylesheet" href="adminsurveylist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="surveyadd">Add survey</button>
+    <div class="box">
+        <h2>List of Surveys</h2>
+        <table class="myTable">
+            <thead>
+                <tr class="details">
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="sur-list">
+        </tbody>
+        </table>
+    </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h2>Questions</h2>
+                <div class="list">
+                </div>
+              <span class="Done">Close</span>
+              <p></p>
+            </div>
+    </div>
+    <script src="addsurvey.js"></script>
+    <script src="adminlist.js"></script>
+    
+    <script src="questions.js"></script>
+    <script src="postdata.js"></script>
+</body>
+</html>

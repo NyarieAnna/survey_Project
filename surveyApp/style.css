@@ -1,0 +1,115 @@
+body{
+  background-image: url(backpic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.main-container {
+    background-color: #fff;
+    width: 55%;
+    height: auto;
+    margin: 1% auto;
+    border-radius: 2%;
+  }
+  
+  .survey-header {
+    background:linear-gradient(120deg, #2980b9, #8e44ad);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    position: relative;
+    top: -30px;
+  }
+  .question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dot {
+    height: 45px;
+    width: 45px;
+    background-color: #2980b9;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .numbering {
+    position: relative;
+    top: 30%;
+    left: 35%;
+    color: white;
+  }
+  h2 {
+    width: 350px;
+    margin-left: 10px;
+  }
+  .answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3rem;
+  }
+  .arrow-answer {
+    color: #8e44ad;
+    font-size: 20px;
+  }
+  .standard-input {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  .arrow-answer-yes-no {
+    justify-content: flex-start;
+  }
+  .yes-no {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .answer-yes-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -11rem;
+  }
+  
+  .answer-textAreaField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+  }
+  .answer-checkRadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -11rem;
+  }
+  
+  .radioQuestions {
+    display: block;
+  }
+  
+  .submitting-answers {
+    background:#2980b9;
+    color: white;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 5px;
+    position: relative;
+    top: 3%;
+    left: 40%;
+  }
+  .submitting-answers:hover {
+    cursor: pointer;
+    background: linear-gradient(-120deg, #2980b9, #8e44ad);;
+  }
+  

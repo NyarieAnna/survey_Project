@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+  <div class="login-div">
+      <h1>Login</h1>
+    <form id="login-form">
+        <div class="txt-field">
+            <input type="text" class="input" id="username" >
+            <span></span>
+            <label>UserName</label>
+        </div>
+        <div class="txt-field">
+            <input type="text" class="input" id="password"  >
+            <span></span>
+            <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?
+            <!-- <select class="user">
+                <option value="respondent" id="respondent">Respondent</option>
+                <option value="admin" id="admin">Admin</option>
+                </select> -->
+                <input type="radio" value="Admin" id="admin" name="user">admin
+                <input type="radio" value="Respondent" id="respondent" name="user">Respondent
+        </div>
+        <!-- <button id="submitbn" class="submitbtn">Login</button> -->
+        <input type="submit" value="Login" id="submitbn" class="submitbtn">
+        <div class="signup-link">
+            Don't have an account? <a href="Signup.html">Signup</a> 
+        </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+  <script src="postdata.js"></script>
+</body>
+</html>
